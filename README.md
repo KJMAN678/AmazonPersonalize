@@ -29,6 +29,17 @@ http://127.0.0.1:8888/lab
 
 
 ### 参考サイト
+- [アイテムインタラクションデータセットスキーマの要件 (カスタム)](https://docs.aws.amazon.com/ja_jp/personalize/latest/dg/interactions-datasets.html#item-interaction-requirements)
+  - 少なくとも、各インタラクションについて以下を入力する必要があります。
+    - ユーザー ID
+    - アイテム ID
+    - タイムスタンプ (Unix エポック時間形式)
+- [アイテムインタラクションデータの要件](https://docs.aws.amazon.com/ja_jp/personalize/latest/dg/interactions-datasets.html)
+  - アイテムインタラクションデータには、次の列が必要です。
+    - USER_ID
+    - ITEM_ID
+    - TIMESTAMP
+    - EVENT_TYPE
 - [AWS の Amazon Personalize のサンプルコード](https://github.com/aws-samples/amazon-personalize-samples/blob/a62e726b6b4935939da1ed68a153a1a2a9bd3584/next_steps/core_use_cases/related_items/personalize_aws_similar_items_example.ipynb)
 - [Jupyter Lab(Notebook)をローカル環境のDocker Composeで起動する方法](https://dev.classmethod.jp/articles/jupyter-notebook-on-docker-compose/)
 - Amazon データセット カラムの説明
