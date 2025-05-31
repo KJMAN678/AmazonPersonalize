@@ -1,6 +1,6 @@
 ```sh
 $ touch .env
-Amazon Personalize / S3 / IAM のアクセス許可をつけたAWSのアクセスキーを入力
+AWS コンソールの IAM Amazon Personalize / S3 / IAM のアクセス許可をつけたAWSのアクセスキーを入力
 AWS_ACCESS_KEY_ID=""
 AWS_SECRET_ACCESS_KEY=""
 
@@ -24,7 +24,7 @@ http://127.0.0.1:8888/lab
   - Campaign
 
 - 削除順
-  - Campaign >> Solution and recipes >> S3 のバケット内のcsv >> S3 のバケット >> DataSet >> 
+  - Campaign >> Solution and recipes >> S3 のバケット内のcsv >> S3 のバケット >> DataSet >> DataSetGroup
 
 
 
@@ -57,3 +57,5 @@ http://127.0.0.1:8888/lab
   - 各種 レシピ ARN が紹介されている
 - [Amazon Personalize リソースを削除するための要件](https://docs.aws.amazon.com/ja_jp/personalize/latest/dg/deleting-resources.html#cleaning-up-custom-resources)
 - [Personalize で使われている Avro の型](https://avro.apache.org/docs/1.11.1/specification/)
+- [boto3 データセットグループの説明を取得](https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/personalize/client/describe_dataset_group.html)
+  - Personalize.Client.describe_dataset_group
