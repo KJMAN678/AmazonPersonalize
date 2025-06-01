@@ -59,4 +59,4 @@ http://127.0.0.1:8888/lab
 - [Personalize で使われている Avro の型](https://avro.apache.org/docs/1.11.1/specification/)
 - [boto3 データセットグループの説明を取得](https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/personalize/client/describe_dataset_group.html)
   - Personalize.Client.describe_dataset_group
-- [プロのヒント – Python Dockerビルドの高速化](https://www.revsys.com/tidbits/faster-python-docker-builds/)
+- [プロのヒント – Python Dockerビルドの高速化](https://www.revsys.com/tidbits/faster-python-docker-builds/])
