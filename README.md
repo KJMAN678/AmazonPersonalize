@@ -60,6 +60,7 @@ http://127.0.0.1:8888/lab
 - [boto3 データセットグループの説明を取得](https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/personalize/client/describe_dataset_group.html)
   - Personalize.Client.describe_dataset_group
 - [プロのヒント – Python Dockerビルドの高速化](https://www.revsys.com/tidbits/faster-python-docker-builds/])
-- https://github.com/aws-solutions-library-samples/amazon-personalize-online-recommendations-with-google-tag-manager/blob/ea9e03733592c994cb704ac7e84858cc94dfd134/packages/api/src/notebook/Personalize%20Models.ipynb#L962
-- https://raw.githubusercontent.com/aws-samples/retail-demo-store/refs/heads/master/src/products/data/products.yaml
-- https://www.kaggle.com/datasets/mobasshir/awssampleretaildemostore?resource=download
+- [AWS Personalize サンプルコード aws-ecomm-frequently-bought-together レシピ対応あり](https://github.com/aws-solutions-library-samples/amazon-personalize-online-recommendations-with-google-tag-manager/blob/ea9e03733592c994cb704ac7e84858cc94dfd134/packages/api/src/notebook/Personalize%20Models.ipynb)
+- [products.yaml](https://raw.githubusercontent.com/aws-samples/retail-demo-store/refs/heads/master/src/products/data/products.yaml)
+- [Kaggle AWS-Sample-Retail-Demo-Store データセット](https://www.kaggle.com/datasets/mobasshir/awssampleretaildemostore?resource=download)
+- [Amazon Personalize レシピ - aws-ecomm-customers-who-viewed-x-also-viewed の注意点](https://repost.aws/questions/QUSZrRpAVGT72K3BgUP1FdNA/amazon-personalize-recipe-aws-ecomm-customers-who-viewed-x-also-viewed)
